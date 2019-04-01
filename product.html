@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaside</title>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body class="">
+<main class="product">
+    <header class="py-3 py-md-1 py-lg-0  w-100">
+        <div class="column-max px-3 d-lg-flex">
+            <p class="  mb-0 justify-content-center justify-content-lg-start text-white d-flex flex-grow-1">Free
+                shipping
+                on orders over $50</p>
+            <ul class="pt-3 pl-0 d-none d-md-flex justify-content-center ">
+                <li class="pr-2"><a href=""> Sign in</a></li>
+                /
+                <li class="pr-2 pl-2"><a href="">Checkout</a></li>
+                /
+                <li class="pr-2 pl-2"><a href="seaside-urun.html"><i class="fas fa-shopping-basket"></i>(0)</a></li>
+                /
+
+                <li class="pl-2"><a href=""><i class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="w-100 py-4 d-block d-lg-flex navbar navbar-expand-md text-center text-lg-left column-max">
+        <a class="flex-grow-1 navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+        <div> <span class="d-md-none"><a href="seaside-urun.html"><i class="fas fa-shopping-basket"></i></a></span>
+            <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button></div>
+        <div class="collapse navbar-collapse d-lg-flex text-left justify-content-md-center justify-content-lg-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+                    <div class="border-0 dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Theme Features
+                    </a>
+                    <div class="border-0 dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="#">
+                        <hr></a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="#">Checkout (0 items)</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="seaside-hesap.html">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mt-3 px-3 pl-2 column-max">
+        <div aria-label=" breadcrumb ">
+            <ol class=" bg-white p-0  breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Frontpage</a></li>
+                <li class="breadcrumb-item"><a href="#">Aloe Shower, Scrub & Moisture Set</a></li>
+            </ol>
+        </div>
+        <article class=" mb-lg-5 pb-5 row">
+            <div class="col-12 col-md-6">
+                <img class="w-100" src="assets/img/pro1.png">
+            </div>
+            <div class="col-12 mt-4 mt-lg-0 col-md-6">
+                <h1>Aloe Shower, Scrub & Moisture Set</h1>
+                <a href="">Softliving Inc.</a>
+                <p class="mt-4"><span>$29.00 USD</span></p>
+                <div class="mb-3">
+                    <label for="quantity">Qty.</label><br>
+                    <input class="p-3 w-50 rounded" id="quantity" name="quantity" type="number" min="1" value="1">
+                </div>
+                <button class="text-white btn py-3 px-3 w-50 ">Add to Cart</button>
+
+                <div>
+                    <p class="my-5 text-dark">All of our products are made using the finest materials and craftsmanship.
+                        Light but
+                        durable, this is
+                        one of our flagships. It’s popular with men and women, and is the perfect gift for all
+                        occasions.
+                    </p>
+                    <p>Each product is packaged and delivered with care. Check out our FAQs for more questions on
+                        shipping, processing, and more.
+                    </p>
+                    <span>This is a demonstration store. This product and its associated images and text are placeholder only.
+Product images from<a href=""> http://shutterstock.com.</a></span><br>
+                    <div class="my-3">
+                        <span class="mute ">Qty available: 2</span>
+                        <span class="mute ml-3">SKU: 369578</span></div>
+                </div>
+                <div>
+                    <a class="mr-2" href="">Gift Set</a>
+                    <a class="mr-2" href=""> Popular</a>
+                    <a href="">Soap</a>
+
+                </div>
+                <div>
+                    <ul class="d-flex my-3  p-0 text-white">
+                        <li class="face rounded p-1 mr-2"><i class="fas fa-thumbs-up"></i><b>Like 2</b></li>
+                        <li class="face rounded p-1 mr-2"><b>Share</b></li>
+                        <li class="twit rounded p-1 mr-2"><i class="pr-1 fab fa-twitter"></i>Twitter</li>
+                        <li class="google border rounded mr-2 p-1"><i class="fab fa-google-plus-g"></i></li>
+                        <li class="pint rounded p-1"><i class="pr-1 fab fa-pinterest-p"></i><b>Kaydet</b></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <hr class=" ">
+        <p class="pb-4 text-muted text-right">Next</p>
+    </div>
+    <footer class="mt-5">
+        <div class="ilk  ">
+            <div class="py-5 column-max text-white row">
+                <div class="col-12 mt-3 mt-lg-0 col-lg-3">
+                    <h6 class="pb-3">Welcome</h6>
+                    <p>Our products are inspired by the people and world around us. Beautiful, high quality goods that
+                        are
+                        designed especially for you. Discover our story and meet the people that make our brand what it
+                        is.
+                    </p>
+                </div>
+
+                <div class="col-12 mt-4 mt-lg-0 col-lg-3">
+                    <h6 class="pb-3">Blog</h6>
+                    <h5>Make Time to Rest & Realax</h5>
+                    <p>As we spring ahead again and adjust our internal clocks for Daylight Savings, we must be prepared
+                        for
+                        those mornings when sleep doesn’t come naturally – a condition known as<span class="text-white"><a
+                                href=""> “Daylight Savings Hangover”</a></span>...
+                    </p>
+                </div>
+                <div class="col-12 mt-5 mt-lg-0 col-lg-3">
+                    <h6 class="pb-3">Newsletter</h6>
+                    <p>Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.
+                    </p>
+                    <div class="input-group w-100 mx-auto   ">
+                        <input type="text" class="h-50 pt-2 pb-3  form-control" placeholder="Email"
+                               aria-label="Recipient's username">
+                        <span class=" py-3 input-group-text"><i
+                                class="text-white px-2 fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 mt-5 social mt-lg-0 col-lg-3">
+                    <h6 class="pb-3">Social Links</h6>
+
+                    <ul class=" p-0 d-flex">
+                        <li class="pr-3"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="pr-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="pr-3"><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                        <li class="pr-3"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="pr-3"><a href=""><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alt py-5 justify-content-center text-white">
+            <div class="text-center">
+                <span class="pr-2">Search</span> /<span class="pl-2">Theme Features</span>
+            </div>
+            <div class="my-3">
+                <ul class="d-flex justify-content-center">
+                    <li><img src="assets/img/diners_club.png"></li>
+                    <li><img src="assets/img/mastercard.png"></li>
+                    <li><img src="assets/img/pay.png"></li>
+                    <li><img src="assets/img/pay.png"></li>
+
+                </ul>
+            </div>
+            <div class="text-center">
+                <a href=""> <img src="assets/img/shopy.png"></a>
+            </div>
+            <div class="my-3 px-4  text-center">
+                <p>© 2018<a href="">Providence Seaside Shopify Theme. </a> All prices displayed in USD. Checkout in USD.
+                    Designed by <a href=""> Empyre. Ecommerce Software by Shopify.</a></p>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,274 @@
+.seaside, .product, .products, .seaside-urun, .seaside-hesap {
+  font-family: 'Work Sans', sans-serif; }
+  .seaside .row, .product .row, .products .row, .seaside-urun .row, .seaside-hesap .row {
+    width: 100% !important; }
+  .seaside a, .product a, .products a, .seaside-urun a, .seaside-hesap a {
+    text-decoration: none !important; }
+  .seaside .breadcrumb a, .product .breadcrumb a, .products .breadcrumb a, .seaside-urun .breadcrumb a, .seaside-hesap .breadcrumb a {
+    font-size: 13px;
+    color: #93979d; }
+  .seaside .breadcrumb a:hover, .product .breadcrumb a:hover, .products .breadcrumb a:hover, .seaside-urun .breadcrumb a:hover, .seaside-hesap .breadcrumb a:hover {
+    color: black; }
+  .seaside ul, .product ul, .products ul, .seaside-urun ul, .seaside-hesap ul {
+    list-style-type: none; }
+  .seaside .column-max, .product .column-max, .products .column-max, .seaside-urun .column-max, .seaside-hesap .column-max {
+    max-width: 80%;
+    margin: 0 auto; }
+  .seaside .column-max2, .product .column-max2, .products .column-max2, .seaside-urun .column-max2, .seaside-hesap .column-max2 {
+    max-width: 80%;
+    margin: 0 auto; }
+  .seaside header, .product header, .products header, .seaside-urun header, .seaside-hesap header {
+    font-size: 13px;
+    background: #313a47; }
+    .seaside header p, .product header p, .products header p, .seaside-urun header p, .seaside-hesap header p {
+      font-size: 14px; }
+    .seaside header div, .product header div, .products header div, .seaside-urun header div, .seaside-hesap header div, .seaside header ul, .product header ul, .products header ul, .seaside-urun header ul, .seaside-hesap header ul {
+      align-items: center; }
+    .seaside header ul, .product header ul, .products header ul, .seaside-urun header ul, .seaside-hesap header ul {
+      color: #c9cbcf; }
+    .seaside header a, .product header a, .products header a, .seaside-urun header a, .seaside-hesap header a {
+      font-size: 14px;
+      color: #93979d; }
+    .seaside header a:hover, .product header a:hover, .products header a:hover, .seaside-urun header a:hover, .seaside-hesap header a:hover {
+      color: #ffffff; }
+  .seaside nav img, .product nav img, .products nav img, .seaside-urun nav img, .seaside-hesap nav img {
+    width: 110px; }
+  .seaside nav i, .product nav i, .products nav i, .seaside-urun nav i, .seaside-hesap nav i {
+    font-size: 25px;
+    color: #93979d; }
+  .seaside nav li, .product nav li, .products nav li, .seaside-urun nav li, .seaside-hesap nav li {
+    padding: 0 5px; }
+  .seaside nav a, .product nav a, .products nav a, .seaside-urun nav a, .seaside-hesap nav a {
+    font-size: 15px;
+    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #93979d; }
+  .seaside nav .active, .product nav .active, .products nav .active, .seaside-urun nav .active, .seaside-hesap nav .active {
+    color: #6aafc0; }
+  .seaside .carousel i, .product .carousel i, .products .carousel i, .seaside-urun .carousel i, .seaside-hesap .carousel i {
+    padding: 12px 15px;
+    border-radius: 50%;
+    background: white !important;
+    color: #c9cbcf;
+    font-size: 25px;
+    font-weight: 700; }
+  .seaside section .new:hover, .product section .new:hover, .products section .new:hover, .seaside-urun section .new:hover, .seaside-hesap section .new:hover {
+    cursor: pointer; }
+  .seaside section .rounded a, .product section .rounded a, .products section .rounded a, .seaside-urun section .rounded a, .seaside-hesap section .rounded a {
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: white;
+    font-family: Garamond; }
+    .seaside section .rounded a p, .product section .rounded a p, .products section .rounded a p, .seaside-urun section .rounded a p, .seaside-hesap section .rounded a p {
+      font-size: 21px; }
+  .seaside section .darker, .product section .darker, .products section .darker, .seaside-urun section .darker, .seaside-hesap section .darker, .seaside section .lighter, .product section .lighter, .products section .lighter, .seaside-urun section .lighter, .seaside-hesap section .lighter {
+    height: 250px;
+    background: #313a47; }
+  .seaside section .lighter, .product section .lighter, .products section .lighter, .seaside-urun section .lighter, .seaside-hesap section .lighter {
+    background: #6ab4c0; }
+  .seaside section .product .col-12, .product section .product .col-12, .products section .product .col-12, .seaside-urun section .product .col-12, .seaside-hesap section .product .col-12 {
+    max-width: 95%; }
+    .seaside section .product .col-12 .sale, .product section .product .col-12 .sale, .products section .product .col-12 .sale, .seaside-urun section .product .col-12 .sale, .seaside-hesap section .product .col-12 .sale {
+      position: absolute;
+      top: 3%;
+      right: 7%;
+      font-size: 13px; }
+  .seaside section .product img, .product section .product img, .products section .product img, .seaside-urun section .product img, .seaside-hesap section .product img {
+    width: 100%; }
+  .seaside section .product ~ hr, .product section .product ~ hr, .products section .product ~ hr, .seaside-urun section .product ~ hr, .seaside-hesap section .product ~ hr {
+    width: 35px; }
+  .seaside section .product a, .product section .product a, .products section .product a, .seaside-urun section .product a, .seaside-hesap section .product a {
+    text-decoration: none; }
+    .seaside section .product a p, .product section .product a p, .products section .product a p, .seaside-urun section .product a p, .seaside-hesap section .product a p {
+      color: black; }
+    .seaside section .product a span, .product section .product a span, .products section .product a span, .seaside-urun section .product a span, .seaside-hesap section .product a span {
+      font-size: 14px;
+      color: #93979d; }
+  .seaside section .product p:hover, .product section .product p:hover, .products section .product p:hover, .seaside-urun section .product p:hover, .seaside-hesap section .product p:hover {
+    color: #6ab4c0;
+    cursor: pointer; }
+  .seaside section .product button, .product section .product button, .products section .product button, .seaside-urun section .product button, .seaside-hesap section .product button {
+    background: #6ab4c0;
+    font-size: 14px; }
+  .seaside section .product button:hover, .product section .product button:hover, .products section .product button:hover, .seaside-urun section .product button:hover, .seaside-hesap section .product button:hover {
+    background: #7fc5d1; }
+  .seaside section aside span, .product section aside span, .products section aside span, .seaside-urun section aside span, .seaside-hesap section aside span {
+    height: 46px;
+    background: #6ab4c0; }
+  .seaside section aside .input-group, .product section aside .input-group, .products section aside .input-group, .seaside-urun section aside .input-group, .seaside-hesap section aside .input-group {
+    width: 50%; }
+  .seaside section .blog .col-12, .product section .blog .col-12, .products section .blog .col-12, .seaside-urun section .blog .col-12, .seaside-hesap section .blog .col-12 {
+    max-width: 95%; }
+  .seaside section .blog img, .product section .blog img, .products section .blog img, .seaside-urun section .blog img, .seaside-hesap section .blog img {
+    width: 100%; }
+  .seaside section .blog span, .product section .blog span, .products section .blog span, .seaside-urun section .blog span, .seaside-hesap section .blog span {
+    font-size: 14px;
+    color: #93979d; }
+  .seaside section .blog a, .product section .blog a, .products section .blog a, .seaside-urun section .blog a, .seaside-hesap section .blog a {
+    color: black;
+    text-decoration: none; }
+  .seaside section .blog p a:hover, .product section .blog p a:hover, .products section .blog p a:hover, .seaside-urun section .blog p a:hover, .seaside-hesap section .blog p a:hover {
+    color: #7fc5d1; }
+  .seaside footer .ilk, .product footer .ilk, .products footer .ilk, .seaside-urun footer .ilk, .seaside-hesap footer .ilk {
+    background: #313b49; }
+    .seaside footer .ilk span a, .product footer .ilk span a, .products footer .ilk span a, .seaside-urun footer .ilk span a, .seaside-hesap footer .ilk span a {
+      color: white; }
+    .seaside footer .ilk span a:hover, .product footer .ilk span a:hover, .products footer .ilk span a:hover, .seaside-urun footer .ilk span a:hover, .seaside-hesap footer .ilk span a:hover {
+      color: #7fc5d1; }
+    .seaside footer .ilk p, .product footer .ilk p, .products footer .ilk p, .seaside-urun footer .ilk p, .seaside-hesap footer .ilk p {
+      color: #93979d;
+      font-size: 15px;
+      font-weight: 400; }
+    .seaside footer .ilk .input-group-text, .product footer .ilk .input-group-text, .products footer .ilk .input-group-text, .seaside-urun footer .ilk .input-group-text, .seaside-hesap footer .ilk .input-group-text {
+      height: 46px;
+      background: #6ab4c0; }
+    .seaside footer .ilk ul, .product footer .ilk ul, .products footer .ilk ul, .seaside-urun footer .ilk ul, .seaside-hesap footer .ilk ul {
+      color: #93979d;
+      font-size: 22px; }
+  .seaside footer .alt, .product footer .alt, .products footer .alt, .seaside-urun footer .alt, .seaside-hesap footer .alt {
+    background: #2c343f; }
+    .seaside footer .alt ul img, .product footer .alt ul img, .products footer .alt ul img, .seaside-urun footer .alt ul img, .seaside-hesap footer .alt ul img {
+      height: 40px; }
+    .seaside footer .alt a, .product footer .alt a, .products footer .alt a, .seaside-urun footer .alt a, .seaside-hesap footer .alt a {
+      font-size: 13px;
+      color: white; }
+    .seaside footer .alt a:hover, .product footer .alt a:hover, .products footer .alt a:hover, .seaside-urun footer .alt a:hover, .seaside-hesap footer .alt a:hover {
+      text-decoration: underline; }
+    .seaside footer .alt span, .product footer .alt span, .products footer .alt span, .seaside-urun footer .alt span, .seaside-hesap footer .alt span {
+      font-size: 13px; }
+    .seaside footer .alt p, .product footer .alt p, .products footer .alt p, .seaside-urun footer .alt p, .seaside-hesap footer .alt p {
+      color: #93979d;
+      font-size: 12px; }
+  .seaside footer .social a, .product footer .social a, .products footer .social a, .seaside-urun footer .social a, .seaside-hesap footer .social a {
+    color: #8a9098; }
+  .seaside footer .social a:hover, .product footer .social a:hover, .products footer .social a:hover, .seaside-urun footer .social a:hover, .seaside-hesap footer .social a:hover {
+    color: white; }
+
+.product article {
+  color: #484b4f; }
+  .product article .mute {
+    font-size: 15px;
+    color: #93979d; }
+  .product article span {
+    font-size: 12px; }
+    .product article span a {
+      color: #6ab4c0;
+      font-size: 12px; }
+    .product article span a:hover {
+      color: black; }
+  .product article div p {
+    font-size: 15px; }
+  .product article p span {
+    font-size: 26px; }
+  .product article h1 {
+    font-weight: 400;
+    font-size: 30px; }
+  .product article a {
+    color: #93979d; }
+  .product article a:hover {
+    color: #7fc5d1; }
+  .product article input {
+    border: 2px solid #e1e3e4; }
+  .product article button {
+    background: #6ab4c0; }
+  .product article li {
+    font-size: 11px; }
+  .product article .face {
+    background: #3B5998; }
+  .product article .twit {
+    background: #00aced; }
+  .product article .google i {
+    color: #db4a39; }
+  .product article .pint {
+    background: #C92228; }
+
+.products .product .col-12 {
+  max-width: 95%; }
+  .products .product .col-12 .sale {
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    font-size: 13px; }
+.products .product img {
+  width: 100%; }
+.products .product ~ hr {
+  width: 35px; }
+.products .product span {
+  font-size: 14px;
+  color: #93979d; }
+.products .product p:hover {
+  color: #6ab4c0;
+  cursor: pointer; }
+.products .product button {
+  background: #6ab4c0;
+  font-size: 14px; }
+.products .product button:hover {
+  background: #7fc5d1; }
+
+.seaside-urun section h4 {
+  color: #313a47;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600; }
+.seaside-urun section table {
+  color: #93979d;
+  font-size: 14px; }
+  .seaside-urun section table thead {
+    background: black;
+    color: #c9cbcf; }
+  .seaside-urun section table img {
+    width: 80px; }
+.seaside-urun section .bilgi .kargo {
+  width: 300px; }
+  .seaside-urun section .bilgi .kargo .tarih {
+    background: #e7e7e7; }
+  .seaside-urun section .bilgi .kargo p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600; }
+    .seaside-urun section .bilgi .kargo p span {
+      font-weight: 400;
+      color: #484b4f; }
+
+.seaside-hesap section label {
+  font-size: 14px;
+  color: #484b4f; }
+.seaside-hesap section input, .seaside-hesap section select {
+  background: transparent; }
+.seaside-hesap section input::placeholder {
+  font-size: 14px;
+  color: #93979d; }
+.seaside-hesap section h4, .seaside-hesap section h6 {
+  color: #313a47;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600; }
+.seaside-hesap section .ekle {
+  color: #6ab4c0;
+  font-weight: 500;
+  font-size: 14px; }
+.seaside-hesap section .kaldir {
+  color: darkred;
+  font-weight: 500;
+  font-size: 14px; }
+.seaside-hesap section .guncelle {
+  color: #c9cbcf;
+  font-weight: 500;
+  font-size: 16px;
+  background: #7fc5d1; }
+.seaside-hesap section .head .hesap {
+  background: #e7e7e7;
+  border: 1px solid darkgrey; }
+  .seaside-hesap section .head .hesap p {
+    font-size: 14px;
+    color: black; }
+    .seaside-hesap section .head .hesap p span {
+      color: #93979d; }
+
+@media screen and (max-width: 992px) {
+  .seaside .column-max, .product .column-max, .products .column-max, .seaside-urun .column-max, .seaside-hesap .column-max {
+    max-width: 95% !important; }
+  .seaside section aside .input-group, .product section aside .input-group, .products section aside .input-group, .seaside-urun section aside .input-group, .seaside-hesap section aside .input-group {
+    width: 75%; } }
+
+/*# sourceMappingURL=main.css.map */
